@@ -10,7 +10,7 @@ def join_nested_strings(src)
     
       while element_index < src[row_index].length do
         current_index = src[row_index][element_index]
-        if current_index.class == string 
+        if current_index.class == String 
           strings_array << current_index
         end
         element += 1 
