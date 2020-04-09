@@ -13,7 +13,7 @@ def join_nested_strings(src)
         if current_index.class == String 
           strings_array << current_index
         end
-        element += 1 
+        element_index += 1 
       end
     row_index+=1 
   end
